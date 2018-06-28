@@ -9,16 +9,16 @@ body {
     background-size: cover;
     text-align: center;
     padding: 36px;
-}
+    }
 
 /* Page */
 .hero-page {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: flex;
     max-width: 960px;
     text-align: left;
     background: rgba(255,255,255,50%);
-    border-radius: 70px;
+    border-radius: 61px;
     margin-bottom: auto;
     }
 
@@ -38,16 +38,14 @@ body {
     color: darkgreen;
     max-width: 50%;
     box-sizing:border-box;
-
 }
 
 h1 { color: black;
-    margin-bottom:0px;
+    margin-bottom:1px;
 }
 
-h2 { margin-top: 0px;}
+h2 { margin-top: 1px;}
 p { color: black;
-    font-size: 18px;
+    font-size: 27px;
     margin-top: 0px;
-    
     }
