@@ -1,0 +1,53 @@
+html {
+    
+    height: 100%
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', 'Arial Narrow', Arial, sans-serif;
+    background: url("../img/backgroud.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 36px;
+}
+
+/* Page */
+.hero-page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    text-align: left;
+    background: rgba(255,255,255,50%);
+    border-radius: 70px;
+    margin-bottom: auto;
+    }
+
+/* Image */
+.hero-image {
+    line-height: 0;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.92;
+}
+
+/* Contenu */
+.hero-contenu {
+    padding: 36px;
+    color: darkgreen;
+    max-width: 50%;
+    box-sizing:border-box;
+
+}
+
+h1 { color: black;
+    margin-bottom:0px;
+}
+
+h2 { margin-top: 0px;}
+p { color: black;
+    font-size: 18px;
+    margin-top: 0px;
+    
+    }
